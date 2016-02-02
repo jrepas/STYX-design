@@ -250,7 +250,6 @@ div.navbar-header .navbar-toggle:active .fa-bars {
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav li.active > a,
 .t3-mainnav .t3-navbar-collapse .navbar-nav li.open > a {
-  text-align: left;
   border: 0;
   color: #aacc66;
 }
@@ -267,8 +266,6 @@ div.navbar-header .navbar-toggle:active .fa-bars {
   margin-right: 5px;
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li > a {
-  float: none;
-  display: inline-block;
   border-top: 1px solid transparent;
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li > a:after {

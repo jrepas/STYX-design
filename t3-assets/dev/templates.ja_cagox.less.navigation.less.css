@@ -1,0 +1,154 @@
+.dropdown-menu {
+  border-radius: 0;
+  border-width: 2px;
+  font-size: 12px;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.dropdown-menu > li > a {
+  padding: 5px 20px;
+}
+.dropdown-header {
+  padding: 3px 20px;
+  font-size: 16px;
+}
+.dropdown-header a {
+  color: #999999;
+}
+.dropdown-submenu > a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu:hover > a:after,
+.dropdown-submenu.open > a:after,
+.dropdown-submenu.active > a:after {
+  border-left-color: #da4e35;
+}
+.nav > li > .separator {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  line-height: 30px;
+}
+@media (min-width: 992px) {
+  .nav > li > .separator {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .nav > li > span {
+    padding: 10px 15px;
+    display: inline-block;
+  }
+}
+.nav .caret {
+  border-top-color: #da4e35;
+  border-bottom-color: #da4e35;
+}
+.nav a:hover .caret {
+  border-top-color: #a4321e;
+  border-bottom-color: #a4321e;
+}
+.t3-navhelper {
+  background: #f5f5f5;
+  border-top: 1px solid #eeeeee;
+  color: #555555;
+  padding: 5px 0;
+}
+.breadcrumb {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+}
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+}
+.breadcrumb > .active {
+  color: #999999;
+}
+.breadcrumb > .active + li:before {
+  content: "";
+  padding: 0;
+}
+.breadcrumb > .active .hasTooltip {
+  padding-right: 15px;
+}
+.breadcrumb .divider {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .pagination-wrap .counter {
+    float: none !important;
+  }
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #555555;
+  border: 0;
+  font-size: 18px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 30px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #da4e35;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  font-weight: bold;
+  color: #000000;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+}
+.pagination {
+  display: block;
+}
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table;
+}
+.pagination:after {
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .pagination {
+    float: left;
+  }
+}
+.pagination .pagination {
+  display: inline-block;
+}
+.counter {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 6px 12px;
+  background-color: transparent;
+  border-bottom: 2px solid #000000;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .counter {
+    float: right;
+  }
+}
+.pager li > a,
+.pager li > span {
+  border-radius: 0;
+}

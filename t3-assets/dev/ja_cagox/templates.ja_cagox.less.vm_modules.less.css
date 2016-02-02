@@ -1,0 +1,476 @@
+.jmoddiv .inputbox {
+  width: 100%;
+}
+.jmoddiv br {
+  display: none;
+}
+ul.VMmenu {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+}
+ul.VMmenu li {
+  padding: 0;
+}
+ul.VMmenu li a {
+  border: 2px solid #f7f7f7;
+  color: #555555;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 7.5px 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+ul.VMmenu li a:hover,
+ul.VMmenu li a:focus,
+ul.VMmenu li a:active {
+  background: #fcfcfc;
+  border-color: #e6e6e6;
+  color: #86ac39;
+}
+ul.VMmenu li.VmOpen a {
+  background: #fcfcfc;
+  border-color: #e6e6e6;
+  color: #86ac39;
+}
+ul.VMmenu li:last-child a {
+  margin-bottom: 0;
+}
+#mod_virtuemart_search {
+  border: 2px solid #eeeeee;
+  border-radius: 0;
+  box-shadow: none;
+}
+.vmgroup .block-image {
+  background: #eeeeee;
+  position: relative;
+  margin-bottom: 15px;
+}
+.vmgroup .block-image .addtocart-area {
+  background: rgba(225, 225, 225, 0.3);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 3;
+  padding: 15px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.vmgroup .block-image .addtocart-area .product-fields {
+  display: none;
+}
+.vmgroup .block-image .featuredProductImage {
+  margin-bottom: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.vmgroup .block-image:hover .addtocart-area {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.vmgroup .block-image:hover .featuredProductImage {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.vmgroup .featuredProductImage {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.vmgroup .PricesalesPrice {
+  color: #666666;
+  font-size: 13px;
+}
+.vmgroup ul.vmproduct {
+  list-style: none;
+  margin: 0 !important;
+}
+.vmgroup ul.vmproduct li {
+  text-align: center;
+}
+.vmgroup ul.vmproduct li > a {
+  border-bottom: 1px solid #eeeeee;
+  color: #222222;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.875;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+.vmgroup ul.vmproduct li > a:hover,
+.vmgroup ul.vmproduct li > a:active,
+.vmgroup ul.vmproduct li > a:focus {
+  color: #aacc66;
+}
+.vmgroup ul.vmproduct li .product-price {
+  float: none;
+  text-align: center;
+  font-size: 13px;
+  color: #666666;
+}
+.vmgroup ul.vmproduct .width16 {
+  width: 16.6666%;
+}
+.vmgroup .spacer > a {
+  border-bottom: 1px solid #eeeeee;
+  color: #222222;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.875;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+.vmgroup .spacer > a:hover,
+.vmgroup .spacer > a:active,
+.vmgroup .spacer > a:focus {
+  color: #aacc66;
+}
+.vmgroup .quantity-box input.quantity-input {
+  background: none;
+  border-color: #333333;
+  border-radius: 0;
+  border-width: 2px;
+  box-shadow: none;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+}
+.vmgroup .quantity-box input.quantity-input:hover {
+  background: none;
+}
+.vmgroup span.quantity-controls {
+  vertical-align: top;
+  margin: 0 2px;
+}
+.vmgroup span.quantity-controls input.quantity-controls {
+  display: block;
+  width: 15px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.vmgroup span.quantity-controls input.quantity-plus {
+  background: url("../../../templates/ja_cagox/images/virtuemart/quantity-controls.png") no-repeat 0 0;
+}
+.vmgroup span.quantity-controls input.quantity-minus {
+  background: url("../../../templates/ja_cagox/images/virtuemart/quantity-controls.png") no-repeat -15px 0;
+}
+.vmgroup .addtocart-area .addtocart-bar {
+  margin-top: 0;
+  text-align: center;
+  left: 0;
+}
+.vmgroup span.addtocart-button input.addtocart-button {
+  color: #ffffff;
+  background-color: #333333;
+  border-color: #262626;
+  border-radius: 0;
+  padding: 3px 15px;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.vmgroup span.addtocart-button input.addtocart-button:hover,
+.vmgroup span.addtocart-button input.addtocart-button:focus,
+.vmgroup span.addtocart-button input.addtocart-button.focus,
+.vmgroup span.addtocart-button input.addtocart-button:active,
+.vmgroup span.addtocart-button input.addtocart-button.active,
+.open > .dropdown-toggle.vmgroup span.addtocart-button input.addtocart-button {
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border-color: #080808;
+}
+.vmgroup span.addtocart-button input.addtocart-button:active,
+.vmgroup span.addtocart-button input.addtocart-button.active,
+.open > .dropdown-toggle.vmgroup span.addtocart-button input.addtocart-button {
+  background-image: none;
+}
+.vmgroup span.addtocart-button input.addtocart-button.disabled,
+.vmgroup span.addtocart-button input.addtocart-button[disabled],
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button,
+.vmgroup span.addtocart-button input.addtocart-button.disabled:hover,
+.vmgroup span.addtocart-button input.addtocart-button[disabled]:hover,
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button:hover,
+.vmgroup span.addtocart-button input.addtocart-button.disabled:focus,
+.vmgroup span.addtocart-button input.addtocart-button[disabled]:focus,
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button:focus,
+.vmgroup span.addtocart-button input.addtocart-button.disabled.focus,
+.vmgroup span.addtocart-button input.addtocart-button[disabled].focus,
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button.focus,
+.vmgroup span.addtocart-button input.addtocart-button.disabled:active,
+.vmgroup span.addtocart-button input.addtocart-button[disabled]:active,
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button:active,
+.vmgroup span.addtocart-button input.addtocart-button.disabled.active,
+.vmgroup span.addtocart-button input.addtocart-button[disabled].active,
+fieldset[disabled] .vmgroup span.addtocart-button input.addtocart-button.active {
+  background-color: #333333;
+  border-color: #262626;
+}
+.vmgroup span.addtocart-button input.addtocart-button .badge {
+  color: #333333;
+  background-color: #ffffff;
+}
+.vmmanufacturer {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  margin-bottom: 15px;
+}
+.vmmanufacturer img {
+  max-width: 100%;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.vmmanufacturer img + div {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(225, 225, 225, 0.6);
+  background: #eee\9;
+  filter: alpha(opacity=80);
+  color: #222222;
+  padding: 10px 15px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+}
+.vmmanufacturer a:hover > div {
+  color: #aacc66;
+}
+.vmmanufacturer a:hover > img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.vmCartModule .total_products {
+  border: 2px solid #222222;
+  color: #444444;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  transition: all 1000ms;
+}
+.vmCartModule .total_products:before {
+  background: url("../../../templates/ja_cagox/images/ico/cart.png") no-repeat center top;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: -8px;
+  width: 100%;
+}
+.vmCartModule .total_products:hover,
+.vmCartModule .total_products:focus,
+.vmCartModule .total_products:active {
+  color: #86ac39;
+}
+.dark-style .vmCartModule .total_products {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.dark-style .vmCartModule .total_products:before {
+  background-image: url("../../../templates/ja_cagox/images/ico/cart-light.png");
+}
+.vmCartModule #page-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.vmCartModule .vmCartList {
+  background-color: #ffffff;
+  display: block !important;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -360px;
+  width: 360px;
+  padding-bottom: 200px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+}
+@media screen and (max-width: 359px) {
+  .vmCartModule .vmCartList {
+    right: -320px;
+    width: 320px;
+  }
+}
+.vmCartModule .vmCartList.show {
+  right: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.vmCartModule .vmCartList .cart-head {
+  position: relative;
+  text-align: center;
+}
+.vmCartModule .vmCartList .cart-head:before,
+.vmCartModule .vmCartList .cart-head:after {
+  content: " ";
+  display: table;
+}
+.vmCartModule .vmCartList .cart-head:after {
+  clear: both;
+}
+.vmCartModule .vmCartList .cart-head h3 {
+  font-size: 16px;
+  display: inline-block;
+  margin: 30px 0 0;
+  padding: 0 0 30px;
+  text-transform: uppercase;
+  background: url("../../../templates/ja_cagox/images/ico/divider.png") no-repeat center bottom;
+}
+.vmCartModule .vmCartList .cart-head a {
+  display: block;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 45px;
+  background: url("../../../templates/ja_cagox/images/ico/close.png") no-repeat center center;
+}
+.vmCartModule .vmCartList .cart-head a i {
+  display: none;
+}
+.vmCartModule .vmCartList .cart-head a:hover,
+.vmCartModule .vmCartList .cart-head a:focus,
+.vmCartModule .vmCartList .cart-head a:active {
+  color: #ffffff;
+}
+.vmCartModule .vmCartList .alert {
+  border-radius: 0;
+  margin: 30px 30px 0;
+}
+.vmCartModule .vmCartList .vm_cart_products {
+  padding-top: 30px;
+  overflow: auto;
+  height: 100%;
+}
+.vmCartModule .vmCartList .product_row {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 15px;
+  padding: 0 30px 15px;
+}
+.vmCartModule .vmCartList .product_row:before,
+.vmCartModule .vmCartList .product_row:after {
+  content: " ";
+  display: table;
+}
+.vmCartModule .vmCartList .product_row:after {
+  clear: both;
+}
+@media screen and (max-width: 359px) {
+  .vmCartModule .vmCartList .product_row {
+    padding: 0 15px 15px;
+  }
+}
+.vmCartModule .vmCartList .product_row:last-child {
+  margin-bottom: 0;
+}
+.vmCartModule .vmCartList .product_row .quantity {
+  float: left;
+  clear: both;
+}
+.vmCartModule .vmCartList .product_row .product_name {
+  float: left;
+}
+.vmCartModule .vmCartList .product_row .product_name a {
+  color: #444444;
+  font-weight: 600;
+}
+.vmCartModule .vmCartList .product_row .product_name a:hover,
+.vmCartModule .vmCartList .product_row .product_name a:focus,
+.vmCartModule .vmCartList .product_row .product_name a:active {
+  color: #aacc66;
+}
+.vmCartModule .vmCartList .product_row .customProductData {
+  float: left;
+  clear: both;
+}
+.vmCartModule .vmCartList .product_row .subtotal_with_tax {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  margin-top: 5px;
+  float: right;
+}
+.vmCartModule .vmCartList .total {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 16px;
+  padding: 15px 30px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 359px) {
+  .vmCartModule .vmCartList .total {
+    padding: 15px;
+  }
+}
+.vmCartModule .vmCartList .total strong {
+  float: right;
+  font-weight: 400;
+}
+.vmCartModule .vmCartList .show_cart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.vmCartModule .vmCartList .show_cart a {
+  background-color: #000000;
+  color: #ffffff;
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.vmCartModule .vmCartList .show_cart a:hover,
+.vmCartModule .vmCartList .show_cart a:focus,
+.vmCartModule .vmCartList .show_cart a:active {
+  background-color: #aacc66;
+}
+.vm-curency .inputbox {
+  margin-bottom: 15px;
+}
+.t3-sidebar .inputbox {
+  width: 100%;
+}
+.t3-sidebar .vmproduct > div {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.t3-sidebar .vmproduct .block-image {
+  float: left;
+  width: 35%;
+  margin: 0 15px 0 0;
+}
+.t3-sidebar .vmproduct .block-image .addtocart-area {
+  display: none;
+}

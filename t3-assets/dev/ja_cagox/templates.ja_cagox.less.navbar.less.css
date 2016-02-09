@@ -97,7 +97,7 @@ div.navbar-header .navbar-toggle:active .fa-bars {
   width: 100%;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #222222;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -191,8 +191,8 @@ div.navbar-header .navbar-toggle:active .fa-bars {
   border-bottom-color: #222222;
 }
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #222222;
-  border-bottom-color: #222222;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -223,6 +223,7 @@ div.navbar-header .navbar-toggle:active .fa-bars {
   color: #222222;
 }
 .t3-mainnav {
+  background: #aacc66;
   border-left: 0;
   border-right: 0;
   margin-bottom: 0;

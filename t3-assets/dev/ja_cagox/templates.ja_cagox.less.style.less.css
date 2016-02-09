@@ -1,8 +1,6 @@
 .t3-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
   background: #ffffff;
+  color: #FFF;
   position: relative;
   z-index: 1000;
   -webkit-transition: background 0.3s;
@@ -42,6 +40,7 @@
 .logo {
   text-align: center;
   line-height: 1;
+  padding: 10px 0;
 }
 .logo a {
   display: inline-block;
